@@ -1,19 +1,13 @@
 import React, { PureComponent } from 'react'
+import './style.css'
 
 export default class Main extends PureComponent {
     render() {
     return (
         <div className='hero'> 
-            <img src = "https://photo-collage.net/wp-content/uploads/collage_tips_8_1.jpg" />
-            <h1 className='title'>Select Your Order</h1>
-            <ul className='menu'>
-                <li>
-                    <a href="/">Order</a>
-                </li>
-                <li>
-                    <a href="/">History</a>
-                </li>
-            </ul>
+            <h1 className= "heading">Create Memories, Stay Uniquely.</h1>
+            <img className="hero-img" src = "https://airbnb-experience-clone-ten.vercel.app/airbnb-pics.png" />
+            <h1 className='title'>Elevate Your Travel Experience with Airbnb, Where Every Stay Transforms Into a Symphony of Comfort, Cultural Richness, and Personal Connection.</h1>
         </div>
         )
     }

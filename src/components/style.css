@@ -1,11 +1,16 @@
+body{
+    background-color: #FAFAFA;
+}
+
+
 .logo{
     display:flex;
-    width :50px;
-    height: 50px;
+    width :107px;
+    height: 44px;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
     box-shadow: 10px;
-    padding:3px;
+    padding: 1px;
 }
 
 body{
@@ -13,24 +18,180 @@ body{
 }
 
 .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     margin:auto;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
-img{
-    width: 850px;
-    height: 550px;
-    padding-top: 60px;
-    padding-left: 250px;
+
+.heading{
+    display:flex;
+    justify-content: flex-start;
+    font-size: 45px;
+    padding-left: 20px;
+    font-family: 'Tilt Neon', Regular;
+    text-align: center;
+    position: relative;
+    top:35px;
+}
+
+.hero-img{
+    width: 1000px;
+    height: 580px;
+    padding-top: 105px;
+    padding-left: 170px;
+    
 }
 
 .title{
-    font-size: 50px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 70px;
+    container: auto;
+    font-family: 'Tilt Neon', Regular;
+
+}
+.menu{
+    font-size: 1px;
     font-weight: bold;
     text-align: center;
 }
-.menu{
-    font-size: 20px;
-    font-weight: bold;
 
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.card-image {
+    display : flex;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px rgba(23, 23, 23, 0.1);
+    border-radius: 10px;
+}
+h3{
+    font-family: 'Tilt Neon', Regular;
+}
+
+.card2{
+    padding-top: 100px;
+}
+
+
+.menubar{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Tilt Neon', Regular;
+    color: black;
+}
+
+.active{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Tilt Neon', Regular;
+    color: black;
+    padding-right: 30px;
+}
+
+.about-link{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Tilt Neon', Regular;
+    color: black;
+    padding-right: 30px;
+}
+
+.contact-link{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Tilt Neon', Regular;
+    color: black;
+    padding-right: 30px;
+}
+
+.services-link{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Tilt Neon', Regular;
+    color: black;
+}
+#search-icon{
+    width: 20px;
+    height: 15px;
+}
+.searchbar1{
+    border: 2px solid gray;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+}
+.searchbar{
+    padding-right: 20px;
+}
+
+.p1{
+    font-family: 'Montserrat', Regular;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+
+
+.button1{
+        width: 150px;
+        height:40px;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: 3px solid gray !important;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Tilt Neon', Regular;
+        font-weight: bold;
+        box-shadow: 10px 10px 10px rgba(23, 23, 23, 0.1);
+        margin-left: 43px;
+        margin-top: 100px;
+
+}
+.button1:hover{
+    background-color: #e7e7e7;
+    color: #FF5A60;
+}
+
+.button2{
+    width: 150px;
+    height:40px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 3px solid gray !important;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Tilt Neon', Regular;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgba(23, 23, 23, 0.1);
+    margin-right: 43px;
+    margin-top: 100px;
+}
+
+.button2:hover{
+    background-color: #e7e7e7;
+    color: #FF5A60;
 }
