@@ -7,7 +7,7 @@ export default function Button() {
 
             <button className='button1'>previous</button>
             <button className='button2'>Next</button>
-
+            
         </div>
     )
 }

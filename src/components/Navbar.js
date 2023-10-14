@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react" 
 import './style.css'
 
 export default function  Navbar() {
@@ -9,12 +9,15 @@ export default function  Navbar() {
                 <a className="active"  href="#">Home</a>
                 <a className="about-link" href="#">About</a>
                 <a className="contact-link" href="#">Contact</a>
-                <a className="services-link" href="#">Services</a>
+                <a className="services-link" href="#">Services</a> 
             </div>
             <div className="searchbar">
-                <img id = "search-icon" src = "https://cdn0.iconfinder.com/data/icons/30-hardware-line-icons/64/Search-512.png" />
-                <input className="searchbar1" type="text" placeholder="Search" />
-            </div>
+    {/* Search icon */}
+            <img id="search-icon" src="https://cdn0.iconfinder.com/data/icons/30-hardware-line-icons/64/Search-512.png" />
+
+    {/* Search input */}
+            <input className="searchbar1" type="text" placeholder="Search" />
+    </div>
         </div>
     )
 }
